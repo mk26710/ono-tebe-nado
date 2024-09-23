@@ -1,1 +1,124 @@
-/* место для вашего кода */
+.body {
+  background-color: #fff;
+  min-height: 100vh;
+
+  /* TODO: delete once finished */
+  padding-bottom: 100px;
+}
+
+.header {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 140px) 1fr;
+  max-width: 1052px;
+  width: 100%;
+  height: 105px;
+  margin-top: 92px;
+  margin-bottom: 96px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 13px;
+  list-style: none;
+}
+
+.header__links-list-item::before {
+  content: "○";
+  font-size: 14px;
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.header__links-list-item_no-bullit::before {
+  content: "";
+  display: none;
+}
+
+.header__links-list-item {
+  font-size: 18px;
+}
+
+.header__link {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.header__logo-image {
+  aspect-ratio: 148 / 114;
+  width: auto;
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.header__address {
+  place-self: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  max-width: 240px;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  width: 100%;
+  height: 757px;
+  max-width: 1100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/cover.jpg") center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-weight: bold;
+  font-size: 100px;
+  align-self: center;
+  margin-top: 165px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 135px;
+}
+
+.hero__title_word {
+  width: fit-content;
+  letter-spacing: 30px;
+}
+
+.hero__title_word:nth-child(2) {
+  align-self: center;
+}
+
+.hero__title_word:nth-child(3) {
+  align-self: flex-end;
+}
