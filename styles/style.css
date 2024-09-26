@@ -113,11 +113,15 @@
   letter-spacing: 30px;
 }
 
-.hero__title_word:nth-child(2) {
+.hero__title_word--left {
+  align-self: flex-start;
+}
+
+.hero__title_word--center {
   align-self: center;
 }
 
-.hero__title_word:nth-child(3) {
+.hero__title_word--right {
   align-self: flex-end;
 }
 
