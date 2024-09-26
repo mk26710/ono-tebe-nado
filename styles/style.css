@@ -57,14 +57,21 @@
   display: flex;
   justify-content: center;
   height: 100%;
+  width: 148px;
 }
 
-.header__logo-image {
-  aspect-ratio: 148 / 114;
-  width: auto;
-  height: 100%;
-  max-height: 100%;
-  max-width: 100%;
+.header__logo_link {
+  display: block;
+  aspect-ratio: 148 / 105;
+  width: 148px;
+  height: 105px;
+}
+
+.header__logo_image {
+  aspect-ratio: 148 / 105;
+  width: 148px;
+  height: 105px;
+  object-fit: contain;
 }
 
 .header__address {
