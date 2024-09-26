@@ -182,19 +182,19 @@
   justify-content: space-between;
 }
 
-.lots__card_films {
+.lots__card--films {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/card-lot-01.jpg") no-repeat center;
   background-size: cover;
 }
 
-.lots__card_book {
+.lots__card--book {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/card-lot-02.jpg") no-repeat center;
   background-size: cover;
 }
 
-.lots__card_painting {
+.lots__card--painting {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/card-lot-03.jpg") no-repeat center;
   background-size: cover;
