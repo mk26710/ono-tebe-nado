@@ -143,6 +143,7 @@
   line-height: 28px;
   text-transform: uppercase;
   word-spacing: 90%;
+  white-space-collapse: collapse;
 }
 
 .hero__promo_btn {
@@ -356,4 +357,16 @@
 
 .tracking-60 {
   letter-spacing: 0.6em;
+}
+
+.tracking-90 {
+  letter-spacing: 0.9em;
+}
+
+.tracking-80 {
+  letter-spacing: 0.8em;
+}
+
+.tracking-110 {
+  letter-spacing: 1.1em;
 }
