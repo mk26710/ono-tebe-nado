@@ -26,19 +26,12 @@
 .header__links-list {
   display: flex;
   gap: 13px;
+  list-style: circle;
+  list-style-position: inside;
+}
+
+.header__links-list-item_no-bullit {
   list-style: none;
-}
-
-.header__links-list-item::before {
-  content: "○";
-  font-size: 14px;
-  padding-left: 0;
-  padding-right: 10px;
-}
-
-.header__links-list-item_no-bullit::before {
-  content: "";
-  display: none;
 }
 
 .header__links-list-item {
