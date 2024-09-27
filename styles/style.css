@@ -3,6 +3,17 @@
   min-height: 100vh;
 }
 
+.address {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  width: 100%;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
 .header {
   position: relative;
   display: grid;
@@ -64,13 +75,7 @@
 
 .header__address {
   place-self: end;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  width: 240px;
-  line-height: 24px;
-  font-size: 18px;
-  font-style: normal;
 }
 
 .main {
@@ -302,18 +307,6 @@
 
 .footer__link--active {
   text-decoration: none;
-}
-
-.footer__contacts {
-  display: flex;
-  flex-direction: column;
-  font-style: normal;
-  max-width: 240px;
-  width: 100%;
-  font-size: 18px;
-  font-weight: normal;
-  color: #000;
-  line-height: 24px;
 }
 
 .footer__menu {
