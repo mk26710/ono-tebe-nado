@@ -153,6 +153,7 @@
   line-height: 28px;
   text-transform: uppercase;
   white-space-collapse: collapse;
+  word-spacing: 0.9em;
 }
 
 .hero__promo_btn {
