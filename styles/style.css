@@ -39,20 +39,8 @@
   font-size: 18px;
 }
 
-.menu__links-list-item::before {
-  content: "";
-  margin-left: -4px;
-}
-
 .menu__links-list-item--no-bullet {
   list-style: none;
-}
-
-.menu__links-list-item--no-bullet::before {
-  content: "";
-  width: 0;
-  height: 0;
-  margin: 0;
 }
 
 .address {
@@ -83,6 +71,7 @@
 .header__menu {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .header__logo {
