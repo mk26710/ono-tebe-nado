@@ -123,7 +123,7 @@
 
 .hero__title_word {
   width: fit-content;
-  letter-spacing: 30px;
+  letter-spacing: 0.3em;
 }
 
 .hero__title_word--left {
@@ -340,26 +340,10 @@
   height: 48px;
 }
 
-.tracking-0 {
-  letter-spacing: 0;
-}
-
-.tracking-30 {
-  letter-spacing: 0.3em;
-}
-
-.tracking-60 {
+.letter-spacing-extended {
   letter-spacing: 0.6em;
 }
 
-.tracking-90 {
-  letter-spacing: 0.9em;
-}
-
-.tracking-80 {
-  letter-spacing: 0.8em;
-}
-
-.tracking-110 {
-  letter-spacing: 1.1em;
+.no-letter-spacing {
+  letter-spacing: normal;
 }
